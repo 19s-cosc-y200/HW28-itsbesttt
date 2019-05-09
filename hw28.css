@@ -1,0 +1,67 @@
+table.table1 {
+
+	width: 200px;
+	margin: auto;
+
+}
+
+caption {
+
+	font-size: 2em;
+	font-weight: bold;
+	font-family: Times New Roman, serif;
+
+}
+
+table.table1 thead {
+
+	background-color: #EAEAEA;
+	font-family: Times New Roman, serif;
+	font-size: .90em;
+
+}
+
+tbody td {
+
+	border-bottom: 1px #000033 dashed;
+	padding-left: 25px;
+
+}
+
+table.table1 tfoot {
+
+	background-color: #EAEAEA;
+	font-weight: bold;
+	text-align: center;
+	font-family: Times New Roman, serif;
+}
+
+table.table2 {
+
+	width: 400px;
+	margin: auto;
+}
+
+table.table2 thead {
+
+	background-color: #C0C0C0;
+	font-family: Times New Roman, serif;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+
+table.table2 tr:nth-of-type(even) {
+
+	background-color: #00FFFF;
+
+}
+
+table.table2 tfoot {
+
+	background-color: #C0C0C0;
+	font-weight: bold;
+	text-align: center;
+	font-family: Times New Roman, serif;
+}
